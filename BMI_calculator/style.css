@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: grey;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#nav {
+    height: 50px;
+    width: 100%;
+    background-color: #DEE5D4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+#home {
+    height: 35px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.527);
+    border-radius: 5px ;
+    font-weight: 550;
+    
+}
+
+.content {
+    height:595px;
+    background-color: grey;
+
+}
+
+#text {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#H {
+    height: 35px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#height {
+    height: 30px;
+    width: 200px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+
+#W {
+    height: 35px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#weight {
+    height: 30px;
+    width: 200px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 4px;
+    border: none;
+
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+#btn {
+    height: 30px;
+    width: 150px;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+ 
+    margin-top: 40px;
+}
+.guide {
+    margin-top: 40px;
+}
+#BMI {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(19, 14, 8);
+}
+
+#review {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(19, 14, 8);
+}

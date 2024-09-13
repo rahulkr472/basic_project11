@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #D2E0FB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+}
+#navbar {
+    height: 580px;
+     width: 70%;
+    border-radius: 20px ;
+    position: relative;
+    top: 40px;
+    left: 15%;
+    background-color: #8EACCD;
+    box-shadow: 2px 2px 20px 5px rgba(128, 128, 128, 0.938);
+   
+}
+
+
+#nav {
+    height: 50px;
+    width: 100%;
+    background-color: #DEE5D4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+
+}
+
+#home {
+    height: 35px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.527);
+    border-radius: 5px ;
+    font-weight: 550;
+    
+}
+
+#home:hover {
+    background-color: #DEE5D4;
+
+}
+
+#text {
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#content {
+    height: 300px;
+    margin-top: 20px;
+}
+
+#project {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+     background-color: white;
+    border-radius: 5px ;
+    margin-top: 20px;
+    position: relative;
+    left: 250px;
+}
+
+#project:hover {
+    background-color: rgba(184, 250, 85, 0.637);
+    border: 2px solid #D2E0FB;
+}
+
+#height {
+    margin-top: 40px;
+}
