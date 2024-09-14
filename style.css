@@ -9,7 +9,7 @@ body {
 }
 #navbar {
     height: 580px;
-     width: 70%;
+     width: 800px;
     border-radius: 20px ;
     position: relative;
     top: 40px;
@@ -59,9 +59,21 @@ body {
     text-decoration: underline;
 }
 
-#content {
-    height: 300px;
+.content {
+    height: 400px;
+    width: 50%;
     margin-top: 20px;
+   
+  
+}
+
+.main-content {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 #project {
@@ -75,8 +87,7 @@ body {
      background-color: white;
     border-radius: 5px ;
     margin-top: 20px;
-    position: relative;
-    left: 250px;
+   
 }
 
 #project:hover {

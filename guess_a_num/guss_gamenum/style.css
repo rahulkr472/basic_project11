@@ -35,28 +35,48 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
-h2 {
-    display: flex;
-justify-content: center;
-position: relative;
-top: 200px;
-color: white;
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    color: #DEE5D4;
 }
 
-#clock {
-    height: 35px;
-    width: 110px;
-   font-size: 20px;
-   font-weight: 500;
-   display: flex;
+p{
+    text-align: center;
+    margin-top: 22px;
+    color: #f4f7f0;
+}
+
+#num {
+    margin-top: 35px;
+}
+
+.input {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#input {
+    height: 33px;
+    width: 190px;
+    border: none;
     border-radius: 5px;
-    background-color: #f08804;
 }
 
-.clock {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 250px;
+.btn {
+display: flex;
+justify-content: center;
+}
+
+#btn {
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    font-weight: 500;
 }
