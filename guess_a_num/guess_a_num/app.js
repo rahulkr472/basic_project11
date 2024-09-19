@@ -9,7 +9,6 @@ let remaining = document.querySelector("#number")
 //  msg.innerHTML = `your number is not equal to ${gamenum}`
 
 let guess = [];
-let gamenum = (Math.floor(Math.random() * 11 ));
 let numguess = 1;
 
 btn.addEventListener("click", () =>{
@@ -32,7 +31,7 @@ btn.addEventListener("click", () =>{
         remaining.innerHTML = `${11 - numguess}`
           msg.style.display = "block"
     } else {
-          msg.innerHTML = `You Win your number is ${innervalue}  equal to gamenum ${gamenum}`
+          msg.innerHTML = `You Win! your number is ${innervalue}  equal to gamenum ${gamenum}`
           startgame.style.display = "block";
           guess.length = 0;
           numguess = 1;
@@ -51,7 +50,6 @@ if(guess.length === 10){
      msg.innerHTML = `your limit is over!`
     btn.disabled = true;
     startgame.style.display = "block";
-    msg.style.display = "block"
     btn.style.display = "none"
 
 } else {
